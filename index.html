@@ -19,10 +19,9 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="inner">
-							<!-- TODO change logo -->
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Ben Rogers</span>
+									<span class="symbol">👌🏼</span><span class="title">Ben Rogers</span>
 								</a>
 								<!-- Nav -->
 								<nav>
@@ -40,10 +39,8 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#connect">Social</a></li>
 						</ul>
 					</nav>
 
@@ -56,15 +53,15 @@
 								<p>Full-Stack Web Student at Lambda School. Currently unavailble for hire.</p>
 							</header>
 							<!-- TODO edit tiles to be appropriate portfolio items -->
-							<section class="tiles">
+							<section id="portfolio" class="tiles">
 								<article class="style1">
 									<span class="image">
 										<img src="images/pic01.jpg" alt="" />
 									</span>
-									<a href="generic.html">
-										<h2>Magna</h2>
+									<a href="https://codesandbox.io/s/x9ov6opm9o">
+										<h2>Liquid Vol Converter</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>A bartenders tool. For converting volume between mL and US fl OZ.</p>
 										</div>
 									</a>
 								</article>
@@ -72,10 +69,10 @@
 									<span class="image">
 										<img src="images/pic02.jpg" alt="" />
 									</span>
-									<a href="generic.html">
-										<h2>Lorem</h2>
+									<a href="https://38x14w6xl6.codesandbox.io/">
+										<h2>John Teague Drums</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>A drum machine using keyboard events to trigger audio.</p>
 										</div>
 									</a>
 								</article>
@@ -83,14 +80,14 @@
 									<span class="image">
 										<img src="images/pic03.jpg" alt="" />
 									</span>
-									<a href="generic.html">
-										<h2>Feugiat</h2>
+									<a href="https://www.dallasobserver.com/music/the-good-news-fort-worth-will-get-a-new-nonprofit-venue-and-vinyl-label-the-bad-news-it-means-ending-chat-room-shows-7073835">
+										<h2>Old Press</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Dallas Observer article detailing some of the arts organiations I used to be involved in.</p>
 										</div>
 									</a>
 								</article>
-								<article class="style4">
+								<!-- <article class="style4">
 									<span class="image">
 										<img src="images/pic04.jpg" alt="" />
 									</span>
@@ -188,7 +185,7 @@
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 										</div>
 									</a>
-								</article>
+								</article> -->
 							</section>
 						</div>
 					</div>
@@ -197,41 +194,23 @@
 					<footer id="footer">
 						<div class="inner">
 							<section>
-								<!-- TODO make this work -->
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
 							</section>
-							<section>
-								<h2>Follow</h2>
-								<!-- TODO edit down social set to include Twitter, LinkedIn, and Github -->
+							<section id="connect">
+								<h2>Connect</h2>
+								<!-- TODO restyle codesandbox icon to match fa set -->
 								<ul class="icons">
-									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
-									<li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+									<li><a href="https://github.com/thisbenrogers" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://codepen.io/thisbenrogers/" class="icon style2 fa-codepen"><span class="label">Codepen</span></a></li>
+									<li id="codesandbox"><a href="https://codesandbox.io/u/thisbenrogers" class="icon style2"><img src="images/codesandbox.svg" alt="CodeSandbox"></a></li>
+									<!-- TODO set up LinkedIN -->
+									<!-- <li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li> -->
+									<li><a href="https://twitter.com/thisbenrogers" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<!-- TODO set up contact form instead of mailto link -->
+									<li><a href="mailto:thisbenrogers@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>adapted from <a href="https://html5up.net/phantom">Phantom</a> by <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Untitled. All rights reserved</li><li>adapted from <a href="https://html5up.net/phantom">HTML5-UP Phantom</a> by Ben</li>
 							</ul>
 						</div>
 					</footer>
